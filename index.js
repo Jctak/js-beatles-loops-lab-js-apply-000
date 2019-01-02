@@ -32,9 +32,12 @@ function iLoveTheBeatles(num) {
   var i = num;
   var j = 0;
   do{
-    arr[j++] = "I love the Beatles!";
-    
-  }while(i++ < 15 || num > 15);
+    arr[j] = "I love the Beatles!";
+    j++;
+    if(num > 15){
+      i = 14;
+    }
+  }while(i++ < 15);
   return arr;
   
 } 
