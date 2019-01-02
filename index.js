@@ -34,7 +34,7 @@ function iLoveTheBeatles(num) {
   do{
     arr[j++] = "I love the Beatles!";
     
-    if(num > 15){
+    if(num >= 15){
       i = 14;
     }
   }while(i++ < 15);
