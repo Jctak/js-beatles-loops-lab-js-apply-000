@@ -32,7 +32,7 @@ function iLoveTheBeatles(num) {
   var i = num;
   var j = 0;
   do{
-    arr[j++] = "I love the Beatles!";
+    arr[j] = "I love the Beatles!";
     
   }while(++i < 15);
   return arr;
