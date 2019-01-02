@@ -34,7 +34,7 @@ function iLoveTheBeatles(num) {
   do{
     arr[j++] = "I love the Beatles!";
     
-  }while(i++ < 15);
+  }while(i++ <= 15);
   return arr;
   
 } 
